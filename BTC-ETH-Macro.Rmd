@@ -1,0 +1,18 @@
+---
+title: "Project 2"
+output: html_document
+date: "2024-02-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(readr)
+ETH <- read_csv("Downloads/CBETHUSD.csv")
+BTC <- read_csv("Downloads/CBBTCUSD.csv")
+NAS <- read_csv("Downloads/NASDAQCOM.csv")
+CPI <- read_csv("Downloads/MEDCPIM158SFRBCLE.csv")
+
+```
